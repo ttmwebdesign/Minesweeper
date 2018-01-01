@@ -1,0 +1,17 @@
+{
+  "name": "minesweeper",
+  "version": "1.0.0",
+  "description": "minesweeper in the terminal window",
+  "main": "game.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  },
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "none"
+  },
+  "author": "",
+  "license": "ISC"
+}
